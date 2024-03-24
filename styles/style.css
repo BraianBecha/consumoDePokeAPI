@@ -1,0 +1,102 @@
+.pokeTarjeta{
+  height: 160px;
+  width: 400px;  
+  background-color: coral;   
+  border-radius: 15px; 
+  padding: 10px;
+  margin: 10px;
+}
+
+.pokeTarjeta .button1{
+  position: relative;
+  padding: 5px;
+
+}
+.buttons{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 350px;
+  margin: 15px;
+  left: 10px;
+  top: 10px;
+  
+  
+}
+
+
+.pokeTarjeta .list1{
+  position: relative;
+  top: -160px;
+  left: 110px;  
+  height: 90px;
+  width: 250px;
+  padding: 5px;
+}
+.pokeTarjeta .image{
+  position: relative;
+top: 10px;
+left: 18px;
+}
+
+ #contenedorDeTarjetas {
+  margin-top: 100px;
+  height: 100%;  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+}
+#contenedorDeGuardados{
+  margin-top: 100px;
+  height: 100%;  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+
+}
+
+.infoDetail{
+ 
+  top: 200px;
+  width: 70vw;  
+  background-color:cornsilk;   
+  border-radius: 15px; 
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contenedorDeImagenes img
+{
+background-color: whitesmoke;
+}
+#imgDetail{
+  background-color: whitesmoke;
+}
+
+main{
+  background-color: crimson;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+html{
+  background-color: chartreuse;
+}
+.image{
+  background-color: ghostwhite;
+}
+#contadorDePokemons {
+  position: relative;
+  align-items: center;
+left: 487px;
+top: 50px;
+}
+#verPokemons{
+  position: relative;
+  align-items: center;
+left: 480px;
+top: 100px;
+}
